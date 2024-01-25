@@ -1,0 +1,45 @@
+/* Inside your style.css file */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure img {
+    max-height: 50px; /* Adjust the height as needed */
+}
+
+.header-info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+}
