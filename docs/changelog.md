@@ -9,3 +9,5 @@
 
 ### Added
 - Login page and appropriate css
+- Registration form
+- A js file for registration that saves information to local storage
